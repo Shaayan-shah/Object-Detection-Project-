@@ -1,0 +1,12 @@
+# Dataset Configuration Template for YOLO
+# Update the paths to your dataset directory
+
+path: ./dataset # root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+
+# Number of classes
+nc: 3
+
+# Class names
+names: ['hard_hat', 'safety_vest', 'gloves']
